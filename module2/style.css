@@ -1,0 +1,49 @@
+
+.box{
+  border: 3px solid black;
+  border-radius:7px;
+  display: inline-block;
+  height: 270px;
+  width: 293px;
+  margin-top: 30px;
+  background-color: red;
+  padding-left: 20px;
+  padding-right: 9px; 
+}
+
+.innerbox{
+  border: 1px solid black
+  ;
+  height:23px;
+  width:62px;
+   background-color: yellow;
+  color: green;
+  float: right;
+  text-align: center;
+}
+h2{
+  text-align: center;
+  }
+@media(max-width: 767px) {
+			.box {
+			  height: 345px;
+        width: 678px;
+			}}
+@media (min-width: 768px) and (max-width: 991px) {
+			.box {
+			  height: 245px;
+        width: 339px;
+      }
+      #box3{
+        width:725px;
+        
+      }
+}
+@media (min-width: 992px) {
+			.box {
+			  height: 270px;
+        width: 288px;
+			}
+}
+
+
